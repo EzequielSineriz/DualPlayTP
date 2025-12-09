@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("../img/fondo_imagen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.card-img-top {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+main {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  flex-direction: column;
+  background-image: url("../img/fondo_imagen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.bienvenido{
+    font-size: 4em;
+}
+
+#input{
+    width: 500px;
+    height: 70px;
+    font-size: 2em;
+}
+
+#boton{
+    width: 200px;
+    height: 60px;
+    font-size: 1.5em;
+}
+
+
+#error{
+    color: red;
+}
+
+body.modo-oscuro .header,
+body.modo-oscuro .footer{
+  background-color: rgba(30, 30, 30, 0.95);
+}
+
+body.modo-oscuro .input{
+  background-color: rgba(30, 30, 30, 0.95);
+  color: white;
+
+}
+
+/* style.css */
+.futuristic-heading {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    color: #e6ecec; /* Example color */
+    padding: 5px 20px;
+    text-align: center
+}
+
+
+
+body.modo-oscuro ::placeholder{
+  font-family: 'Orbitron', sans-serif;
+  color: gray; 
+}
+
+@media (max-width: 425px) {
+  footer{
+    display: none;
+  }
+
+  #input{
+      width: 300px;
+      height: 50px;
+      font-size: 1.5em;
+  }
+
+  #boton{
+      width: 100px;
+      height: 30px;
+      font-size: 1em;
+  }
+
+
+
+  #error{
+    font-size: 0.9em;
+}
+
+
+}

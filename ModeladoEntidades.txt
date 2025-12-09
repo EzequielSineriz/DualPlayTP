@@ -1,0 +1,32 @@
+Videojuego{
+        "id": 1,
+        "nombre": "GOD",
+        "descripcion": "NaN",
+        "precio": 100,
+        "stock": true,
+        "imagen": "/God.jpg",
+		}
+
+JuegoDeMesa {
+        "id": 1,
+        "nombre": "Monopoly",
+        "descripcion": "Estrategia",
+        "precio": 100,
+        "stock": true,
+        "imagen": "/Monopoly.jpg",
+}
+
+Ticket {
+    id: 1, (INT)
+	comprador: "Roberto", (String)
+	productos: [Videojuego, JuegoDeMesa],
+	total: 30000.00(float),
+    fechaCompra: 2020/10/10, (Date)
+}
+
+Carrito {
+    id: 1, (INT)
+	comprador: "Roberto", (String)
+	productos: [Videojuego, JuegoDeMesa],
+	total: 30000.00(float)	
+}
