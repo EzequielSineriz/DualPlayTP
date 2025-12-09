@@ -166,10 +166,10 @@ npm start
 
 * Pasarela de pagos
 
-## 👨‍💻 Autores
+## 👨‍💻 Autor
 
 ### Ezequiel Siñeriz
-### Ezequiel Do Campo
+
 Trabajo Final – Programación III
 Universidad Tecnologica Argentina – Año 2025
 
